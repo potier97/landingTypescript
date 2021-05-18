@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/form.css">
+</head>
+
+<body>
+    <section>
+        <div class="imgBx">
+            <img src="./image/pexels-fauxels-3183165.jpg">
+        </div>
+        <div class="contentBx">
+            <div class="formBx">
+                <h2>Login</h2>
+                <form action="get">
+                    <div class="inputBx">
+                        <spsan>First Name</span>
+                        <input type="text" name="fname" id="fname">
+                    </div>
+                    <div class="inputBx">
+                        <span>Last Name</span>
+                        <input type="text" name="lname" id="lname">
+                    </div>
+                    <div class="inputBx"> 
+                        <span>Name</span><br/> 
+                        <span id="fullname"></span>
+                    </div>
+                    <div class="inputBx">
+                        <input type="button" value="Submit" name="" onClick="writeValues(form)">
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/funct.js"></script>
+</body>
+
+</html>
